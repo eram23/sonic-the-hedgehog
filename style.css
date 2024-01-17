@@ -1,0 +1,81 @@
+body {
+  margin: 0 auto;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 4px #1c1c1c;
+}
+
+#patterned-bg {
+  /* background: #2323cb; DARK BLUE BG WITH THIN LINES
+  background-image: url('images/blue.svg'), url('images/darkblue.svg');
+  background-repeat: repeat, repeat;
+  background-size: 25px 1px, 29px 30px; */
+
+  /* PIXELATED BG WITH TWO DIFFERENT COLORS */
+  background-image: url(images/pixel-sky.svg);
+  background-repeat: repeat;
+  background-size: 80px 80px;
+}
+
+#img-div {
+  margin: 0 auto;
+  padding: 20px 20px;
+  max-width: 800px;
+  /* border: solid 1px red; */
+  text-align: left;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0px;
+  max-width: 100%;
+  content: align-center;
+  /* border: solid 1px red; */
+}
+
+#tribute-info {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 25px 20px;
+  /* border: solid 1px red; */
+}
+
+h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 4px #1c1c1c;
+}
+
+#tribute-facts {
+  list-style: none;
+  text-align: left;
+  padding-top: 10px;
+}
+
+#tribute-facts, li {
+  margin: 20px 0px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 50px;
+    font-family: 'Pixelify Sans', sans-serif;
+    border-top: solid 20px rgb(30, 121, 39);
+    background-color: #955c2b;
+    background-image: url(images/pixel-dirt.svg);
+    background-repeat: repeat;
+    background-size: 80px 80px;
+}
+
+#learn-more {
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px #1c1c1c;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: white;
+}
